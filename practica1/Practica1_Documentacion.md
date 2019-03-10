@@ -10,7 +10,8 @@ Además, he preferido instalar también *OpenSSH* para no tener que hacerlo por 
 # Prueba de Curl
 Lo primero que voy a mostrar son mis 2 direcciones IP de cada maquia:
 ![image](https://github.com/antonioml97/SWAP/blob/master/practica1/Imagenes/Maquina1_IP.png)
-![image](https://github.com/antonioml97/SWAP/blob/master/practica1/Imagenes/Maquina2IP.png)
+![image](https://github.com/antonioml97/SWAP/blob/master/practica1/Imagenes/Maquina2IP.png)  
+
 Lo siguiente que voy a hacer es comprobar *curl* y *apache* funciona, para ello he generado un archivo de prueba en la maquina 1, y usare *curl* en la maquina 2.
 ![image](https://github.com/antonioml97/SWAP/blob/master/practica1/Imagenes/PruebaCurl.png)
 # Prueba de SSH
