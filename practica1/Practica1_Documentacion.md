@@ -6,3 +6,4 @@ Esta primera practica de la asignatura consiste en la preparación de nuestras m
 # Apache + PHP + MySQL + Servicios SSH
 Para la instalación de estas herramientas se pueden hacer de varias maneras, instarlo mediante comando una vez instalado Ubuntu Server, o bien, por la que yo he optado que instalar el LAMP.
 Además, he preferido instalar también *OpenSSH* para no tener que hacerlo por comandos.
+[imagen](https://github.com/antonioml97/SWAP/blob/master/practica1/Imagenes/ConfiguracionLAMP.png)
