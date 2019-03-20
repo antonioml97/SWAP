@@ -19,6 +19,7 @@ Este procedimiento consiste en configurar rysnc para acceder sin necesidad de in
 
 # Programar tarea Crontab
 Ahora vamos a configurar el demonio *crontab*, para ello basta con añadir una línea a su fichero de configuracion quedando de la siguiente manera:
+&nbsp;
 ![imagen](https://github.com/antonioml97/SWAP/blob/master/practica2/Imagenes/Editar_CronTab.png)
 
 Con esto ya estaría configurado para que la carpeta /var/www/ se actualize 1 vez por minuto, en el guión se indica 1 hora pero yo por utilidad para comprobar su correcto funcionamiento he optado por darle el tiempo mencionado anteriormente.
