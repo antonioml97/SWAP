@@ -7,3 +7,4 @@ Esta práctica 2 de esta asignatura consiste en realizar la sincronización de a
 
 # Acceso sin contraseña
 En mi caso tenia ya la herramienta *rsync* instalada, asi que mi primer paso seria configurarlo, es decir, configurar ssh para poder acceder sin contraseña para ellos he usado la herramienta *ssh-keygen*
+![imagen](https://github.com/antonioml97/SWAP/blob/master/practica2/Imagenes/Crear_clave.png)
