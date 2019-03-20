@@ -14,7 +14,7 @@ En mi caso tenía ya la herramienta *rsync* instalada, por tanto, solo tenía qu
 
 # Acceso sin contraseña
 Este procedimiento consiste en configurar rysnc para acceder sin necesidad de introducir la contraseña manualmente, es decir, configurar ssh para poder acceder sin contraseña para ellos he usado la herramienta *ssh-keygen*, para ello he realizado lo siguiente:
-
+&nbsp;
 ![imagen](https://github.com/antonioml97/SWAP/blob/master/practica2/Imagenes/Crear_clave.png)
 
 # Programar tarea Crontab
