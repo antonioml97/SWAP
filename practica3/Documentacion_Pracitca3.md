@@ -20,4 +20,6 @@ Un ejemplo de su funcionamiento se refleja en esta imagen:
 
 
 &nbsp;
-![imagen](https://github.com/antonioml97/SWAP/blob/master/practica3/img/Funcionado_curl.pngg)
+![imagen](https://github.com/antonioml97/SWAP/blob/master/practica3/img/Funcionado_curl.png)
+
+# Balanceador haproxy
