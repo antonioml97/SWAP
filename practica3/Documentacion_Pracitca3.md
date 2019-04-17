@@ -49,5 +49,8 @@ Vamos a realizar 2 pruebas usando en cada una un baleanceador distinto.
 ![imagen](https://github.com/antonioml97/SWAP/blob/master/practica3/img/Bechamach_nginx.png)
 
 -Caso haproxy:
+
+
+
 &nbsp;
 ![imagen](https://github.com/antonioml97/SWAP/blob/master/practica3/img/Benmachk_haproxy.png)
