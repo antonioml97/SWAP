@@ -35,4 +35,13 @@ Una vez reiniciado Apache, accedemos al servidor web mediante el protocolo HTTPS
 Al entrar a la web nos aparecerá un mensaje avisando de que la web no es segura:
 ![img](https://github.com/antonioml97/SWAP/blob/master/practica4/img/Screenshot_2.png)
 
-b
+Ahora vamos a copiar el certificado a la otra maquina en produccíon,M2.
+```
+sudo a2enmod ssl
+sudo rsync -avz -e ssh antonio@192.168.1.100:/etc/apache2/ssl /etc/apache2/
+sudo rsync -avz --delete -e ssh antonio@192.168.1.100:/etc/apache2/sites-available/default-ssl.conf /etc/apache2/sites-available/default-ssl.conf
+a2ensite default-ssl
+service apache2 reload
+service apache2 restart
+```
+![img](https://github.com/antonioml97/SWAP/blob/master/practica4/img/Copia_m1_m2.png)
