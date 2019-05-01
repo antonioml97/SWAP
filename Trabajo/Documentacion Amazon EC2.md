@@ -26,5 +26,5 @@ Una vez aquí, antes de continuar necesitamos crear un usuario de tipo root, par
 Una vez que le hemos puesto un nombre, lo siguiente es crear un grupo para poder administrar los permisos. Bastaría con seleccionar lo mostrado en la imagen, y por último añadir el usuario a este grupo ya creado.
 ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/imagen_5.png)
 ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_6.png)
-![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/imagen_7.png)
+![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_7.png)
 ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_8.png)
