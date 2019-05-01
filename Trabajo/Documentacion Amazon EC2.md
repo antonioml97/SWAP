@@ -19,3 +19,12 @@ Cabe destacar 2 cosas:
 &nbsp;
 Una vez seguidos estos pasos y habiendo confirmado un mensaje que llegará al correo que hayamos indicado, nos saldrá todo ya listo y una ventana como la de la siguiente imagen:
 ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_2.png)
+
+Una vez aquí, antes de continuar necesitamos crear un usuario de tipo root, para ello buscamos aquí la sección IAM:
+![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_3.png)
+![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_4.png)
+Una vez que le hemos puesto un nombre, lo siguiente es crear un grupo para poder administrar los permisos. Bastaría con seleccionar lo mostrado en la imagen, y por último añadir el usuario a este grupo ya creado.
+![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_5.png)
+![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_6.png)
+![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_7.png)
+![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_8.png)
