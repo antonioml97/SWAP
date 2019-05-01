@@ -14,7 +14,6 @@ Para crear la cuenta será tan fácil como darle al botón de crear cuenta  y re
 
 	* Nos pedirá una tarjeta de crédito, aunque no se hará ningún cargo si no superas el paquete básico.
 	* Nos realizarán una llamada y tendremos que marcar los números que nos aparecen en pantalla conforme vamos avanzando en los formularios.
-&nbsp;
 Una vez seguidos estos pasos y habiendo confirmado un mensaje que llegará al correo que hayamos indicado, nos saldrá todo ya listo y una ventana como la de la siguiente imagen:
 ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_2.png)
 &nbsp;
