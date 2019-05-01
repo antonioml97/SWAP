@@ -20,7 +20,7 @@ Cabe destacar 2 cosas:
 Una vez seguidos estos pasos y habiendo confirmado un mensaje que llegará al correo que hayamos indicado, nos saldrá todo ya listo y una ventana como la de la siguiente imagen:
 ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_2.png)
 
-Una vez aquí, antes de continuar necesitamos crear un usuario de tipo root, para ello buscamos aquí la sección IAM:
+Una vez aquí, antes de continuar necesitamos crear un usuario de tipo root, para ello buscamos aquí la sección *IAM*:
 ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen%203.png)
 ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_4.png)
 Una vez que le hemos puesto un nombre, lo siguiente es crear un grupo para poder administrar los permisos. Bastaría con seleccionar lo mostrado en la imagen, y por último añadir el usuario a este grupo ya creado.
@@ -28,3 +28,11 @@ Una vez que le hemos puesto un nombre, lo siguiente es crear un grupo para poder
 ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_6.png)
 ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_7.png)
 ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_8.png)
+
+&nbsp;
+# ELEGIR SISTEMA OPERATIVO
+Lo primero que tenemos que hacer es buscar en la consola *EC2*, una vez hecho esto habrá que darle a Instances-->Launch Instance
+![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_9.png)
+Una vez aquí saldrán los distintos sistemas operativos, por comodidad mía y ya que es con lo que hemos trabajado en clase he optado por instalar Ubuntu Server 16.04. ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_10.png)
+Una vez instalado se quedaría así: ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_11.png)
+En el proceso me pide crear una keypair y descargar un archivo de extension .pem
