@@ -50,4 +50,4 @@ Por último,también tenemos que configurar **NGINX** para que acepete las petic
 ![img](https://github.com/antonioml97/SWAP/blob/master/practica4/img/Nginx.png)
 
 Con esto ya tendríamos nuestro baleanceador listo para usarse, en la siguiente imagen se ve su correcto funcionamiento:
-![img](https://github.com/antonioml97/SWAP/blob/master/practica4/img/Nginx_ok.png)
+![img](https://github.com/antonioml97/SWAP/blob/master/practica4/img/Ngix__ok.png)
