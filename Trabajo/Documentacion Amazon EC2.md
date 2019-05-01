@@ -12,10 +12,6 @@ Para empezar con esto será necesario crea una cuenta para poder empezar a usar 
 Para crear la cuenta será tan fácil como darle al botón de crear cuenta  y rellenar unas series de formularios, cabe destacar 2 cosas.
 ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Trabajo_Crea.png)
 
-
-
-
-&nbsp;
 	* Nos pedirá una tarjeta de crédito, aunque no se hará ningún cargo si no superas el paquete básico.
 &nbsp;  
 	* Nos realizarán una llamada y tendremos que marcar los números que nos aparecen en pantalla conforme vamos avanzando en los formularios.
