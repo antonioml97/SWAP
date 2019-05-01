@@ -9,8 +9,9 @@ La pregunta aquí es, ¿es necesario todo esto para montar una simple página we
 
 # CREAR CUENTA
 Para empezar con esto será necesario crea una cuenta para poder empezar a usar nuestro servicio en Amazon Web Server, o abreviado *AWS*.
-Para crear la cuenta será tan fácil como darle al botón de crear cuenta  y rellenar unas series de formularios, cabe destacar 2 cosas.
+Para crear la cuenta será tan fácil como darle al botón de crear cuenta  y rellenar unas series de formularios.
 ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Trabajo_Crea.png)
+Cabe destacar 2 cosas:
 + Nos pedirá una tarjeta de crédito, aunque no se hará ningún cargo si no superas el paquete básico.
 + Nos realizarán una llamada y tendremos que marcar los números que nos aparecen en pantalla conforme vamos avanzando en los formularios.
 
