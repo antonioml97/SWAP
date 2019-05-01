@@ -13,11 +13,11 @@ Para generar un certificado SSL autofirmado en Ubuntu Server solo tenemos que ac
 
 
 
-  a2enmod ssl
-  service apache2 restart
-  mkdir /etc/apache2/ssl
-  cd /etc/apache2/ssl
-  openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout apache.key -out apache.crt
+a2enmod ssl
+service apache2 restart
+mkdir /etc/apache2/ssl
+cd /etc/apache2/ssl
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout apache.key -out apache.crt
 
 
 
