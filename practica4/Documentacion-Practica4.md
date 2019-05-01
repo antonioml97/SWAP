@@ -91,7 +91,7 @@ Para acabar esta parte habría que editar el fichero /etc/rc.local para que se h
 ![img](https://github.com/antonioml97/SWAP/blob/master/practica4/img/IPTables_Script.png)
 
 ## Crear una máquina cortafuegos
-He creado otra maquina con IP es 192.168.1.106,que actuará como cortafuegos, redirigiendo al balanceador únicamente los paquetes dirigidos a los puertos 80 (HTTP) y 443 (HTTPS), y ahora voy a configurarlo para ello he elaborado el siguiente script:
+He creado otra maquina con IP es 192.168.1.106, que actuará como cortafuegos, redirigiendo al balanceador únicamente los paquetes dirigidos a los puertos 80 (HTTP) y 443 (HTTPS), y ahora voy a configurarlo para ello he elaborado el siguiente script:
 ```
 # Eliminar todas las reglas
 iptables -F
