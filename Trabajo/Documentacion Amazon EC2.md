@@ -51,7 +51,7 @@ Es posible que pueda dar otro tipo de errores a la hora de usar SSH, HTTP, etc�
 Por eso he creado las siguientes reglas ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_14.png)
 
 # DE CARA AL CLIENTE
-Amazon nos proporciona un IPv4 Pública, pero nadie accede a una página web a través de su IP, por tanto, es necesario usar un dominio. Amazon puede también proporcionárnoslo con su servidor DNS, de pago claro, o elegir otras opciones. Yo he optado por usar **NO-IP**.
+Amazon nos proporciona un IPv4 Pública, pero nadie accede a una página web a través de su IP, por tanto, es necesario usar un dominio. Amazon puede también proporcionárnoslo con su servidor DNS o elegir otras opciones. Yo he optado por usar **NO-IP**.
 ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_15.png)
 
 Finalmente, con este último paso ya tendríamos un dominio con un nombre funcionando correctamente.
