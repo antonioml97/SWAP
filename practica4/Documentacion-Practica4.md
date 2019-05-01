@@ -55,7 +55,7 @@ Con esto ya tendríamos nuestro baleanceador listo para usarse, en la siguiente 
 # Configurar el cortafuegos
 Un cortafuegos es un componente esencial que protege la granja web de accesos indebidos. Son dispositivos colocados entre subredes para realizar diferentes tareas
 de manejo de paquetes. Actúa como el guardián de la puerta al sistema web, permitiendo el tráfico autorizado y denegando el resto.
-## Usar la herramienta iptables
+## Usar la herramienta iptables en una máquina de produccíon
 Primero, vamos a configurar una máquiuna de produccíon en mi caso M1 que tiene la IP 192.168.1.100. Para ello he elaborado este script:
 ```
 # Eliminar todas las reglas
@@ -87,5 +87,25 @@ Con esto ya tendríamos nuestra M1 configurada, la siguiente imagen muestra la M
 Y esto después de aplicar el script:
 ![img](https://github.com/antonioml97/SWAP/blob/master/practica4/img/Tras_script.png)
 
-Lo ultimo seria editar el fichero /etc/rc.local para que se haga cada vez que se reincia el sistema
+Para acabar esta parte habría que editar el fichero /etc/rc.local para que se haga cada vez que se reincia el sistema
 ![img](https://github.com/antonioml97/SWAP/blob/master/practica4/img/IPTables_Script.png)
+
+## Crear una máquina cortafuegos
+He creado otra maquina con IP es 192.168.1.106,que actuará como cortafuegos, redirigiendo al balanceador únicamente los paquetes dirigidos a los puertos 80 (HTTP) y 443 (HTTPS), y ahora voy a configurarlo para ello he elaborado el siguiente script:
+```
+# Eliminar todas las reglas
+iptables -F
+iptables -X
+iptables -Z
+iptables -t nat -F
+
+# Redireccionar HTTP y HTTPS
+iptables -t nat -A PREROUTING -p tcp --dport 80 -j DNAT --to <ip_balanceador>
+iptables -t nat -A PREROUTING -p tcp --dport 443 -j DNAT --to <ip_balanceador>
+iptables -A FORWARD -d <ip_balanceador> -p tcp --dport 80 -j ACCEPT
+iptables -A FORWARD -d <ip_balanceador> -p tcp --dport 443 -j ACCEPT
+iptables -t nat -A POSTROUTING -j MASQUERADE
+
+# Permitir IP forwarding
+sysctl net.ipv4.ip_forward=1
+```
