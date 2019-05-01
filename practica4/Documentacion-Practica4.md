@@ -17,6 +17,22 @@ cd /etc/apache2/ssl
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout apache.key -out apache.crt
 ```
 
+Editamos el archivo de configuración del sitio default-ssl:
+```
+nano /etc/apache2/sites-available/default-ssl.conf
+```
+Y agregamos estas lineas debajo de donde pone SSLEngine on:
+```
+SSLCertificateFile /etc/apache2/ssl/apache.crt SSLCertificateKeyFile /etc/apache2/ssl/apache.key
+```
+Activamos el sitio default--ssl y reiniciamos apache:
+```
+a2ensite default-ssl
+service apache2 reload
+```
+Una vez reiniciado Apache, accedemos al servidor web mediante el protocolo HTTPS , si estamos accediendo con un navegador web en la barra de dirección sale en rojo el https, ya que se trata de un certificado autofirmado.
 
+Al entrar a la web nos aparecerá un mensaje avisando de que la web no es segura:
+![img](https://github.com/antonioml97/SWAP/blob/master/practica4/img/Screenshot_2.png)
 
 b
