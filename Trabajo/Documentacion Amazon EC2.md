@@ -36,3 +36,13 @@ Lo primero que tenemos que hacer es buscar en la consola *EC2*, una vez hecho es
 Una vez aquí saldrán los distintos sistemas operativos, por comodidad mía y ya que es con lo que hemos trabajado en clase he optado por instalar Ubuntu Server 16.04. ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_10.png)
 Una vez instalado se quedaría así: ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_11.png)
 En el proceso me pide crear una keypair y descargar un archivo de extension .pem
+
+# CONECTARSE AL SERVIDOR
+Con SSH nos podríamos conectar a nuestro servidor, para lo que necesitaremos utilizar si trabajamos en Windows, que es mi caso, su *Subsistema de Linux* que básicamente consiste en una consola que nos permite usar los comandos de Windows. Aunque hay otras opciones, como máquinas virtuales con Ubuntu y la herramienta **PuTTy** entre otras.
+Para conectarse al servidor necesitaremos el archivo con extensión .pem creado anteriormente, bastaría con realizar lo siguiente:
+![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_12.png)
+Cabe destacar que para poder hacer esto he tenido que usar la orden cp y poner el archivo en esa carpeta para que no de ningún tipo de error.
+Una vez terminado este proceso, habrá que instalar Apache y MySQL  y ya tendríamos nuestro servidor operativo.
+![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_13.png)
+Es posible que pueda dar otro tipo de errores a la hora de usar SSH, HTTP, etc…
+Por eso he creado las siguientes reglas ![img](https://github.com/antonioml97/SWAP/blob/master/Trabajo/img/Imagen_14.png)
