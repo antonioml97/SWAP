@@ -45,3 +45,6 @@ service apache2 reload
 service apache2 restart
 ```
 ![img](https://github.com/antonioml97/SWAP/blob/master/practica4/img/Copia_m1_m2.png)
+
+Por último,también tenemos que configurar **NGINX** para que acepete las peticiones HTTPS, para ello es necesario pasarle los certificado yo he vuelto a usar la orden rsync, además hay que añadir lo siguiente al archivo de configuración:
+![img](https://github.com/antonioml97/SWAP/blob/master/practica4/img/Nginx.png)
