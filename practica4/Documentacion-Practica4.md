@@ -109,3 +109,6 @@ iptables -t nat -A POSTROUTING -j MASQUERADE
 # Permitir IP forwarding
 sysctl net.ipv4.ip_forward=1
 ```
+
+Con este ya tendríamos el cortafuegos redirigiendo al balenacador, en la siguiente imagen se muestra como lo distribuye:
+![img](https://github.com/antonioml97/SWAP/blob/master/practica4/img/CortaFuegos_ok.png)
