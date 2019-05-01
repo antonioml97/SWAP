@@ -22,7 +22,6 @@ Para crear la cuenta será tan fácil como darle al botón de crear cuenta  y re
 
 
 &nbsp;  
-
 	-Nos realizarán una llamada y tendremos que marcar los números que nos aparecen en pantalla conforme vamos avanzando en los formularios.
 
 
