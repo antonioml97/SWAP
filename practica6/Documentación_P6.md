@@ -16,7 +16,7 @@ sudo chmod -R 777 /dat/compartida/
 + Para dar permiso de acceso a las máquinas clientes, debemos añadir las IP correspondientes en el archivo de configuración */etc/exports*
 
 
-![img](1)
+![img](https://github.com/antonioml97/SWAP/blob/master/practica6/img/Imagen_1.png)
 + Finalmente, debemos reiniciar el servicio:
 ````
 sudo service nfs-kernel-server restart
@@ -35,11 +35,12 @@ sudo mount 192.168.1.110:/dat/compartida carpetacliente
 ````
 Una vez hecho esto ya tendriamos todo configurado de manera que lo que hagamos en esa carpeta afectara a M1,M2 y la maquina de NFS.
 
-![img](2)
+
+![img](https://github.com/antonioml97/SWAP/blob/master/practica6/img/Imagen_2.png)
 
 Por último, es necesario editar el archivo */etc/fstab* para que se monte esta carpeta cada vez que se inicien las máquinas.
 
 
-![img](3)
+![img](https://github.com/antonioml97/SWAP/blob/master/practica6/img/Imagen_3.png)
 
 Con esta modificación ya estaría todo acabado.
