@@ -3,7 +3,7 @@ En esta práctica vamos a realizar una configuración de una base de datos senci
 
 #Crear una BD e insertar datos
 Comenzamos en la máquina 1 (cuya ip es 192.168.1.100), creando una base de datos desde mysql llamada contactos. Una vez seleccionada, creamos la tabla de datos que tendrá un nombre y un teléfono, y le insertamos una tupla.
-![img]()
+![img](https://github.com/antonioml97/SWAP/blob/master/practica5/img/Crear_BD.png)
 
 #Replicar una BD MySQL con mysqldump
 Básicamente lo que vamos a realizar aquí es una clonación de nuestras bases de datos, para tener una copia de seguridad y posteorimente la trasnferiremos a nuestra máquina 2, es decir, nuestra maquina esclava.
@@ -21,11 +21,11 @@ mysqldump contactos -u root -p > /tmp/contactos.sql
 ```
 UNLOCK TABLES;
 ```
-![img](imagen2)
+![img](https://github.com/antonioml97/SWAP/blob/master/practica5/img/Imagen_2.png)
 
 Posteorimente, vamos a copiar esta base de datos a nuestra segunda máquina. Hay que tener cuidado ya que en nuestra máquina 2 tenemos que crear nosotros primero la base de datos. Ahora para copiar nuestra base de datos usaremos la orden *scp*.
 En este caso bastaría con hacer lo que esta reflejado en la siguiente imagen:
-![img](imagen3)
+![img](https://github.com/antonioml97/SWAP/blob/master/practica5/img/Imagen_3.png)
 
 #Replicación de BD mediante una configuración maestro-esclavo
 La opción anterior funciona perfectamente, pero es algo que realiza un operador a mano. Sin embargo, MySQL tiene la opción de configurar el demonio para hacer
@@ -54,10 +54,10 @@ Los cambios a realizar son los siguientes:
 /etc/init.d/mysql restart
 ```
 En la siguiente imagen se muestra como ambas máquinas están bien.
-![img](mysql_OK)
+![img](https://github.com/antonioml97/SWAP/blob/master/practica5/img/mysql_OK.png)
 
 Por otro lado, tenemos que crear un usuario en la base de datos y realizar los siguientes comandos en la máquina maestro:
-![img](despues_Crear)
+![img](https://github.com/antonioml97/SWAP/blob/master/practica5/img/Despues_Crear_Usuario.png)
 
 En la imagen anterior se muestra la obtenemos los datos de la BD que vamos a replicar para posteriormente usarlos en la configuración del esclavo.
 
@@ -74,7 +74,7 @@ introduzcan/modifiquen/borren en el servidor maestro:
 mysql> START SLAVE;
 ```
 Una vez desbloquedas las tablas en la máquina maestro podemos usar la orden en la máquina esclavo *mysql> SHOW SLAVE STATUS\G* para comprobar que funciona correctamente, si todo esta bien "Seconds_Behind_Master” es distinto de “null”.
-![img](Seconh)
+![img](https://github.com/antonioml97/SWAP/blob/master/practica5/img/Seconh.png)
 
 Para acabar la documentación de ésta sesión voy a realizar una prueba de su correcto funcionamiento, que se reflejará en la siguiente imagen:
-![img](todo_OK)
+![img](https://github.com/antonioml97/SWAP/blob/master/practica5/img/Todo_OK.png)
