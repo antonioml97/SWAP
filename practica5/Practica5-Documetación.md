@@ -76,7 +76,7 @@ introduzcan/modifiquen/borren en el servidor maestro:
 mysql> START SLAVE;
 ```
 Una vez desbloquedas las tablas en la máquina maestro podemos usar la orden en la máquina esclavo *mysql> SHOW SLAVE STATUS\G* para comprobar que funciona correctamente, si todo esta bien "Seconds_Behind_Master” es distinto de “null”.
-
+Para arreglar el error de las UUID que se me ha presentdo he borrado el fichero */var/lib/mysql/auto.cnf*
 
 ![img](https://github.com/antonioml97/SWAP/blob/master/practica5/img/Seconh.png)
 
