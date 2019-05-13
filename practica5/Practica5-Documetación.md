@@ -57,6 +57,8 @@ En la siguiente imagen se muestra como ambas máquinas están bien.
 ![img](https://github.com/antonioml97/SWAP/blob/master/practica5/img/mysql_OK.png)
 
 Por otro lado, tenemos que crear un usuario en la base de datos y realizar los siguientes comandos en la máquina maestro:
+
+
 ![img](https://github.com/antonioml97/SWAP/blob/master/practica5/img/Despues_Crear_Usuario.png)
 
 En la imagen anterior se muestra la obtenemos los datos de la BD que vamos a replicar para posteriormente usarlos en la configuración del esclavo.
