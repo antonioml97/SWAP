@@ -74,6 +74,8 @@ introduzcan/modifiquen/borren en el servidor maestro:
 mysql> START SLAVE;
 ```
 Una vez desbloquedas las tablas en la máquina maestro podemos usar la orden en la máquina esclavo *mysql> SHOW SLAVE STATUS\G* para comprobar que funciona correctamente, si todo esta bien "Seconds_Behind_Master” es distinto de “null”.
+
+
 ![img](https://github.com/antonioml97/SWAP/blob/master/practica5/img/Seconh.png)
 
 Para acabar la documentación de ésta sesión voy a realizar una prueba de su correcto funcionamiento, que se reflejará en la siguiente imagen:
