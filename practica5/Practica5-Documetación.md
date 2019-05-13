@@ -1,11 +1,11 @@
-#Práctica 5: Replicación de bases de datos MySQL
+# Práctica 5: Replicación de bases de datos MySQL
 En esta práctica vamos a realizar una configuración de una base de datos sencila en nuestra granja web.
 
-#Crear una BD e insertar datos
+# Crear una BD e insertar datos
 Comenzamos en la máquina 1 (cuya ip es 192.168.1.100), creando una base de datos desde mysql llamada contactos. Una vez seleccionada, creamos la tabla de datos que tendrá un nombre y un teléfono, y le insertamos una tupla.
 ![img](https://github.com/antonioml97/SWAP/blob/master/practica5/img/Crear_BD.png)
 
-#Replicar una BD MySQL con mysqldump
+# Replicar una BD MySQL con mysqldump
 Básicamente lo que vamos a realizar aquí es una clonación de nuestras bases de datos, para tener una copia de seguridad y posteorimente la trasnferiremos a nuestra máquina 2, es decir, nuestra maquina esclava.
 
 Para ello vamos a realizar los siguientes pasos:
@@ -27,7 +27,7 @@ Posteorimente, vamos a copiar esta base de datos a nuestra segunda máquina. Hay
 En este caso bastaría con hacer lo que esta reflejado en la siguiente imagen:
 ![img](https://github.com/antonioml97/SWAP/blob/master/practica5/img/Imagen_3.png)
 
-#Replicación de BD mediante una configuración maestro-esclavo
+# Replicación de BD mediante una configuración maestro-esclavo
 La opción anterior funciona perfectamente, pero es algo que realiza un operador a mano. Sin embargo, MySQL tiene la opción de configurar el demonio para hacer
 replicación de las BD sobre un esclavo a partir de los datos que almacena el maestro.
 
